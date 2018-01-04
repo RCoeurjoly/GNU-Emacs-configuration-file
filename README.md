@@ -1,1 +1,3 @@
-# GNU-Emacs-configuration-file
+# configuration-files
+
+GNU Emacs and bash configuration files
