@@ -13,3 +13,7 @@
 (setq verilog-coverage "coverage ... ")
 (setq verilog-simulator "verilator ... ")
 (setq verilog-compiler "verilator ... " )
+(setq backup-directory-alist
+          `((".*" . ,temporary-file-directory)))
+    (setq auto-save-file-name-transforms
+          `((".*" ,temporary-file-directory t)))
